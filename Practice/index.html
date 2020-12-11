@@ -1,4 +1,44 @@
+
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <a href="o.jpg" download="GFG"> 
+         <button type="button">Download</button> 
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Read Text File</title>
+  </head>
+
+  <body>
+    <input type="file" name="inputfile" id="inputfile" />
+    <br />
+
+    <pre id="output"></pre>
+
+    <script type="text/javascript">
+      document
+        .getElementById("inputfile")
+        .addEventListener("change", function () {
+          var fr = new FileReader();
+          fr.onload = function () {
+            document.getElementById("output").textContent = fr.result;
+          };
+
+          fr.readAsText(this.files[0]);
+        });
+    </script>
+  </body>
+</html> -->
+
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,4 +48,44 @@
   <body>
     <hr size="30" color="red" />
   </body>
-</html>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      How to determine which element the mouse pointer move over using
+      JavaScript ?
+    </title>
+  </head>
+
+  <body style="text-align: center">
+    <h1 style="color: green" onmouseover="GFG_Fun()">GeeksForGeeks</h1>
+
+    <p
+      id="GFG_UP"
+      onmouseover="GFG_Fun()"
+      style="font-size: 15px; font-weight: bold"
+    ></p>
+
+    <button onmouseover="GFG_Fun()">click here</button>
+
+    <p
+      id="GFG_DOWN"
+      style="font-size: 24px; font-weight: bold; color: green"
+    ></p>
+
+    <script>
+      up = document.getElementById("GFG_UP");
+      down = document.getElementById("GFG_DOWN");
+      up.innerHTML = "Hover over the document to know the element.";
+
+      function GFG_Fun() {
+        x = event.clientX;
+        y = event.clientY;
+        a = document.elementFromPoint(x, y);
+        down.innerHTML = a.innerHTML;
+      }
+    </script>
+  </body>
+</html> -->

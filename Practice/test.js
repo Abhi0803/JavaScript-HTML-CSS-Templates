@@ -88,11 +88,27 @@ foodDistribution([5, 3, 1, 2, 1]);
 //   }
 // }
 
-let ex = [0, 1, 2, 3, 4, 5, 6, 7, 9];
-for (let i = 0; i < ex.length; i++) {
-  if (i === ex[i]) {
-    // console.log(ex[i]);
-  } else {
-    console.log(i);
-  }
+// let ex = [0, 1, 2, 3, 4, 5, 6, 7, 9];
+// for (let i = 0; i < ex.length; i++) {
+//   if (i === ex[i]) {
+//     // console.log(ex[i]);
+//   } else {
+//     console.log(i);
+//   }
+// }
+
+// var date1 = new Date(2019, 00, 01);
+// var date2 = new Date(2019, 01, 01);
+// var present_date = new Date();
+
+// var Difference_In_Time = date2.getTime() - date1.getTime();
+// var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
+
+// console.log(Difference_In_Time, Difference_In_Days, present_date);
+
+{
+  console.log(x);
+
+  var x = 45;
 }
+console.log(x);

@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  /* This is a Template of How i want items vertically or in rows
+    grid-template-rows: 10% 20% auto 10%;  
+  */
+  /* grid-template-columns: 30% 20% 40% auto; */
+
+  /* This gives the defined size to evry element in that heirarchy */
+  /* height: 20vh; */
+  /* grid-auto-columns: 100vw; */
+
+  /* This is Just to make it row or column */
+  /* grid-auto-flow: column;*/
+  height: 100vh;
+  /* grid-template-rows: 1fr 1fr 3fr 1fr; */
+
+  /* This is the grid areas where we just define ehat we need in the page according
+  to an array like we did in 2d Arrays and then for each element in the array we define 
+  it in the element separately using grid-area:"name" of the element */
+  /* grid-template-areas:
+    "head . ."
+    "main nav nav"
+    "foot foot foot"; */
+
+  /* repeat function */
+  /* grid-template-columns: repeat(4, 1fr); */
+  /* grid-template-columns: repeat(2, 100px 1fr); */
+
+  /* This is minmax() function which takes the max value if present on the screen */
+  /* grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) minmax(0, 1fr) minmax(
+      0,
+      1fr
+    ); */
+
+  /* grid gaps are row-gaps and column-gaps between them */
+  /* grid-template-columns: repeat(6, 1fr); */
+  /* grid-gap: 2rem; */
+  /* column-gap: 2rem; */
+  /* row-gap: 2rem; */
+
+  /* Grid-column and row  used with (grid-column: 1/4 or grid-row: 1/4)*/
+  /* grid-template-columns: repeat(6, 1fr); */
+
+  grid-template-rows: repeat(4, 1fr);
+}
+
+header {
+  /* grid-area: head; */
+  background: black;
+  /* grid-column: 1 / 4; */
+  /* or */
+  /* grid-column: span 3; */
+
+  /* Aligning items in a grid */
+  height: 20vh;
+  width: 20vh;
+  place-self: center;
+}
+
+nav {
+  /* grid-area: nav; */
+  background: blue;
+}
+main {
+  /* grid-area: main; */
+  background: red;
+}
+footer {
+  /* grid-area: foot; */
+  background: green;
+}

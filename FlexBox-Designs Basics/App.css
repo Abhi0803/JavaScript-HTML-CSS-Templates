@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* flex-direction: row; */
+  /* height: 100vh; */
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  /* align-items: stretch; */
+
+  align-items: center;
+  display: flex;
+  height: 40em;
+}
+
+.item {
+  width: 100vw;
+  height: 50vh;
+  background: black;
+}

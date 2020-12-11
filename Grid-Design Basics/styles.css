@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 20vh 80vh;
+}
+
+.image-container {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(1, 1fr 1fr);
+  grid-auto-flow: column;
+}
+
+nav {
+  place-self: center;
+}
+img {
+  height: 100%;
+}
+
+.ctatuff {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-rows: 1fr 1fr;
+}
+
+.basic {
+  place-self: center;
+}
+
+.click {
+}

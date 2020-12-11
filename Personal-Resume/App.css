@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 25vh 70vh 5vh;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,
+h2 {
+  color: #193042;
+}
+
+h2 {
+  text-decoration-line: underline;
+  padding-top: 1rem;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 16px;
+}
+h4 {
+  font-size: 14px;
+}
+h5 {
+  font-style: italic;
+}
+
+li {
+  font-size: 12px;
+}
+/* ----------------------------------------------Intro----------------------------------- */
+
+header {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 5% 65% 30%;
+  padding: 5rem 1rem 0rem 0rem;
+  border-bottom: 2px solid;
+  background-color: rgba(216, 216, 223, 0.6);
+}
+
+.intro h1 {
+  color: #193042;
+}
+.intro h3 {
+  color: #5ab6cf;
+  padding-bottom: 10px;
+}
+.links {
+  text-decoration: none;
+  text-align: right;
+}
+
+a:link {
+  text-decoration: none;
+  color: #44a0ff;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #44a0ff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #44a0ff;
+  text-decoration-line: underline;
+}
+
+a:active {
+  text-decoration: none;
+  color: #44a0ff;
+}
+
+.links a,
+p {
+  padding-bottom: 15px;
+}
+
+.left-box {
+  height: 35%;
+  width: 45%;
+  background: #193042;
+}
+
+.icons {
+  color: #193042;
+  padding-left: 1rem;
+  font-size: 18px;
+}
+
+/* ----------------------------------------------Content----------------------------------- */
+main {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 50% 50%;
+}
+
+/* LEFT_SIDE */
+
+.left-side {
+  display: grid;
+  grid-template-rows: 25% 45% 30%;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  background: rgba(244, 244, 250, 0.6);
+}
+
+.skills {
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+.skills h2 {
+  padding-bottom: 1rem;
+}
+
+.values p {
+  padding: 3px 8px;
+  background: #193042;
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+.academic {
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+
+.academic h4 {
+  padding-top: 1rem;
+}
+
+.academic h5,
+span {
+  font-style: italic;
+}
+
+.academic ul {
+  padding: 1.5rem;
+}
+
+ul a {
+  font-weight: bolder;
+}
+.academic ul a {
+  font-size: 11px;
+}
+
+/* RIGHT_SIDE */
+.right-side {
+  display: grid;
+  grid-template-rows: 60% 40%;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(216, 216, 223, 0.6);
+  padding-right: 1.5rem;
+}
+
+.work-experience {
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+.work-experience h3 {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  font-weight: bolder;
+}
+
+.work-experience h5 {
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.work-experience ul {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.train-up {
+  padding-top: 1rem;
+}
+.train-down {
+  padding-bottom: 1rem;
+}
+
+.personal-projects {
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+}
+.personal-projects ul {
+  padding: 0.5rem;
+}
+
+.personal-projects h2 {
+  padding-bottom: 0.5rem;
+}
+
+.personal-projects li {
+  padding-bottom: 0.2rem;
+}
+
+/* ----------------------------------------------Footer----------------------------------- */
+footer {
+  display: inline-flex;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+  padding-inline-end: 1.5rem;
+  padding-inline-start: 1.5rem;
+  border-top: 6px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(216, 216, 223, 0.6);
+}
+footer h6 {
+  font-size: 7px;
+  opacity: 0.5;
+}
